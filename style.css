@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    direction: rtl;
+    text-align: center;
+}
+#tabArea{
+    margin: 40px auto;
+    display: inline-block;
+}
+img{
+    height: 300px;
+    width: 500px;
+}
+#tabHeader{
+    border: 2px solid gray;
+}
+#tab-data
+{
+    display: none;
+}
+#food{
+    background-color: lightgrey;
+    border: 2px solid gray;
+}
+#tab-data.selectedTab
+{
+    display: block;
+    color: black;
+    background: white;
+    height: flex;
+    padding: 5px;
+}
+ul{
+    text-decoration: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin: 5px 0 5px 50px;
+}
+li:hover{
+    background-color: lightgray;
+}
+#food{
+    background-color: red;
+}
